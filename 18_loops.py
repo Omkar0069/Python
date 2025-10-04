@@ -48,9 +48,13 @@ i = 0
 
 # Pass in Loop
 
-for i in range(100):
-    pass # Skip the loop, instruct to do nothing
+# for i in range(100):
+#     pass # Skip the loop, instruct to do nothing
 
-while(i<199):
-    print(i)
+# while(i<199):
+#     print(i)
+#     i+=1
+j = int(input("Enter the number for table: "))
+for i in range(1,11):
+    print(f"{j} | X | {i} | = | {j*i}")
     i+=1
